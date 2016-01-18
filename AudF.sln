@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudF", "AudF\AudF.csproj", "{53879475-7DE0-47EE-A9F5-F504116FD60E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "client", "client\client.csproj", "{A01EFB7F-0CF4-4423-BB87-7D79FE397ED3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{53879475-7DE0-47EE-A9F5-F504116FD60E} = {53879475-7DE0-47EE-A9F5-F504116FD60E}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53879475-7DE0-47EE-A9F5-F504116FD60E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53879475-7DE0-47EE-A9F5-F504116FD60E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53879475-7DE0-47EE-A9F5-F504116FD60E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53879475-7DE0-47EE-A9F5-F504116FD60E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A01EFB7F-0CF4-4423-BB87-7D79FE397ED3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A01EFB7F-0CF4-4423-BB87-7D79FE397ED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A01EFB7F-0CF4-4423-BB87-7D79FE397ED3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A01EFB7F-0CF4-4423-BB87-7D79FE397ED3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

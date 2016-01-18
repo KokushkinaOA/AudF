@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:43748/Service1.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/AudF" />
+  <xs:element name="GetData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="value" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDataResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetDataResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataSet" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:element ref="xs:schema" />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDataUsingDataContract">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/AudF" minOccurs="0" name="composite" nillable="true" type="q1:CompositeType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDataUsingDataContractResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/AudF" minOccurs="0" name="GetDataUsingDataContractResult" nillable="true" type="q2:CompositeType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="dob_red_aud">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="flag" type="xs:int" />
+        <xs:element minOccurs="0" name="korp" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Nn" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="po" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pl" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="v_a" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="vm" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="spec" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="nal_pr" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="vis" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sh" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="dl" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="dob_red_audResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="dob_red_ob">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="flag" type="xs:int" />
+        <xs:element minOccurs="0" name="kor" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Nn" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="n_ob" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="cost" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="invent_n" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="d_u" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="d_s" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ot_lic" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="dob_red_obResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="dob_red_rem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="flag" type="xs:int" />
+        <xs:element minOccurs="0" name="kor" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Nn" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="n_sm" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="vid_rem" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="p_o" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="cost" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="d_n" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="d_okon" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="dob_red_remResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

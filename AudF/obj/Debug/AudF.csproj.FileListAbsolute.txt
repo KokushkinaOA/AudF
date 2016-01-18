@@ -1,0 +1,6 @@
+C:\Users\Ольга\documents\visual studio 2013\Projects\AudF\AudF\bin\AudF.dll.config
+C:\Users\Ольга\documents\visual studio 2013\Projects\AudF\AudF\bin\AudF.dll
+C:\Users\Ольга\documents\visual studio 2013\Projects\AudF\AudF\bin\AudF.pdb
+C:\Users\Ольга\documents\visual studio 2013\Projects\AudF\AudF\obj\Debug\AudF.csprojResolveAssemblyReference.cache
+C:\Users\Ольга\documents\visual studio 2013\Projects\AudF\AudF\obj\Debug\AudF.dll
+C:\Users\Ольга\documents\visual studio 2013\Projects\AudF\AudF\obj\Debug\AudF.pdb

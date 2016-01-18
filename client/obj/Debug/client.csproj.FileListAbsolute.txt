@@ -1,0 +1,13 @@
+C:\Users\Ольга\documents\visual studio 2013\Projects\AudF\client\bin\Debug\client.exe.config
+C:\Users\Ольга\documents\visual studio 2013\Projects\AudF\client\bin\Debug\client.exe
+C:\Users\Ольга\documents\visual studio 2013\Projects\AudF\client\bin\Debug\client.pdb
+C:\Users\Ольга\documents\visual studio 2013\Projects\AudF\client\obj\Debug\client.Properties.Resources.resources
+C:\Users\Ольга\documents\visual studio 2013\Projects\AudF\client\obj\Debug\client.csproj.GenerateResource.Cache
+C:\Users\Ольга\documents\visual studio 2013\Projects\AudF\client\obj\Debug\client.exe
+C:\Users\Ольга\documents\visual studio 2013\Projects\AudF\client\obj\Debug\client.pdb
+C:\Users\Ольга\documents\visual studio 2013\Projects\AudF\client\obj\Debug\client.csprojResolveAssemblyReference.cache
+C:\Users\Ольга\documents\visual studio 2013\Projects\AudF\client\obj\Debug\client.dob_aud.resources
+C:\Users\Ольга\documents\visual studio 2013\Projects\AudF\client\obj\Debug\client.dob_ob.resources
+C:\Users\Ольга\documents\visual studio 2013\Projects\AudF\client\obj\Debug\client.dob_rem.resources
+C:\Users\Ольга\documents\visual studio 2013\Projects\AudF\client\obj\Debug\client.osn.resources
+C:\Users\Ольга\documents\visual studio 2013\Projects\AudF\client\obj\Debug\client.csproj.ResolveComReference.cache
